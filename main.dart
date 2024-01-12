@@ -36,5 +36,6 @@ void main() {
       default:
         print("ERROR");
     }
+    print("Just a demo bug fix");
   }
 }
