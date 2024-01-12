@@ -1,3 +1,7 @@
+import 'dart:io';
+
 void main() {
-  print("Paracticing Git");
+  stdout.write("What's your name?");
+  String? name = stdin.readLineSync();
+  print("Hi, ${name ?? "null"}");
 }
