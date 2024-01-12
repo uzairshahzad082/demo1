@@ -16,4 +16,9 @@ class PersonManager {
       person.showPerson();
     }
   }
+
+  // delete a person
+  deletePerson({required int id}) {
+    persons.removeWhere((element) => element.id == id);
+  }
 }
