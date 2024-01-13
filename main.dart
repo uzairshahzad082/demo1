@@ -4,6 +4,7 @@ import 'person.dart';
 import 'person_manager.dart';
 
 void main() {
+  print("delete");
   PersonManager personManager = PersonManager();
   bool resume = true;
   while (resume) {
